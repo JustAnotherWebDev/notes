@@ -1,0 +1,41 @@
+export interface Character {
+  id: string;
+  name: string;
+}
+
+export const Roster: Character[] = [
+  { id: "JIN", name: "Jin" },
+  { id: "KAZ", name: "Kazuya" },
+  { id: "JUN", name: "Jun" },
+  { id: "PAU", name: "Paul" },
+  { id: "LAW", name: "Law" },
+  { id: "KIN", name: "King" },
+  { id: "LAR", name: "Lars" },
+  { id: "XIA", name: "Xiaoyu" },
+  { id: "JAC", name: "Jack-8" },
+  { id: "NIN", name: "Nina" },
+  { id: "ASU", name: "Asuka" },
+  { id: "LER", name: "Leroy" },
+  { id: "LIL", name: "Lili" },
+  { id: "HWO", name: "Hwoarang" },
+  { id: "BRY", name: "Bryan" },
+  { id: "CLA", name: "Claudio" },
+  { id: "AZU", name: "Azucena" },
+  { id: "RAV", name: "Raven" },
+  { id: "YOS", name: "Yoshimitsu" },
+  { id: "STE", name: "Steve" },
+  { id: "DRA", name: "Dragunov" },
+  { id: "LEO", name: "Leo" },
+  { id: "SHA", name: "Shaheen" },
+  { id: "KUM", name: "Kuma" },
+  { id: "FEN", name: "Feng" },
+  { id: "PAN", name: "Panda" },
+  { id: "ZAF", name: "Zafina" },
+  { id: "LEE", name: "Lee" },
+  { id: "ALI", name: "Alisa" },
+  { id: "DEV", name: "Devil Jin" },
+  { id: "VIC", name: "Victor" },
+  { id: "REI", name: "Reina" },
+  { id: "EDD", name: "Eddy" },
+  { id: "LID", name: "Lidia" },
+];
